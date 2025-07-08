@@ -16,7 +16,7 @@ def btn_clk(value):
 # Calculate result and  show full expression
 def calculate():
     expression = db.get()
-    result = eval(expression)
+    result = eval(expression)                                               #evaluates(predefined ) the vales in the expression 
     db.delete(0, END)
     db.insert(0, str(result))
 # Entry widget
