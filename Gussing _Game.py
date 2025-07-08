@@ -3,7 +3,7 @@ import random
 print("welocme to gussing game")
 print("guess a number between 1 to 100")
 
-secrete_num=random.randint(1,100)
+secrete_num=random.randint(1,100)                                    #randint converts the random into integer
 
 while True:
     a=input("guess number: ")
