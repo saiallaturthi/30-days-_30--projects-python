@@ -5,7 +5,7 @@ quiz={
 score=0
 print("welcome to quiz app")
 print("enter your answer\n")  #\n new line
-for quiz,answer in quiz.items():
+for quiz,answer in quiz.items():                                               #What is the capital of France? ,paris in dictionary
     user_answer=input(f"{quiz}").lower().strip() #f formate 
     if user_answer == answer:
         print("correct answer\n")
