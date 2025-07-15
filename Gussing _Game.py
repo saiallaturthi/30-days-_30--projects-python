@@ -19,7 +19,19 @@ while True:
     
     
     
-    
+    #alter
+import random
+
+a=int(input())
+b=random.randint(1,100)
+
+while True:
+    if a>b:
+        print("greater")
+        break
+    else:
+        print("equal")
+        break
     
     
     
