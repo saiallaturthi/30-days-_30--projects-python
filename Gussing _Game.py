@@ -22,13 +22,14 @@ while True:
     #alter
 import random
 
-a=int(input())
 b=random.randint(1,100)
 
 while True:
-    if a>b:
-        print("greater")
-        break
+    a=int(input())
+    if a > b:
+        print("Too high!")
+    elif a < b:
+        print("Too low!")
     else:
         print("equal")
         break
